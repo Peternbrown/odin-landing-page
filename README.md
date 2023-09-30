@@ -1,0 +1,1 @@
+Landing Page project for the Odin Project courses on HTML and CSS.
