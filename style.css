@@ -1,0 +1,40 @@
+.header, ul {
+    display: flex;
+}
+
+.secondary-text {
+    font: 18px Arial;
+    color: #e5e7eb;
+}
+
+.container1 {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    gap: 16px;
+}
+
+#awesome {
+    font: 48px extra-bold;
+    color: #F9FAF8;
+}
+
+.light-blue {
+    background-color: #3882F6;
+}
