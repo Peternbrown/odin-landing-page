@@ -1,4 +1,7 @@
-.header, ul {
+/* Top part
+------------------------------- */
+
+.content1, .header, ul {
     display: flex;
 }
 
@@ -35,6 +38,47 @@ ul {
     color: #F9FAF8;
 }
 
+button {
+    border: none;
+    border-radius: 4px;
+    color: azure;
+    padding: 5px 15px;
+    font-weight: bolder;
+}
+
 .light-blue {
     background-color: #3882F6;
 }
+
+
+.content1 {
+    justify-content: space-around;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.box1 {
+    height: 200px;
+    width: 300px;
+}
+
+img {
+    margin-bottom: 30px;
+}
+
+/* Middle Part 
+------------------------------- */
+
+.container2 {
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.rounded-box {
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+    width: 125px;
+    height: 125px;
+}
+
