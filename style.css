@@ -68,6 +68,9 @@ img {
 
 /* Middle Part 
 ------------------------------- */
+.container2, #boxes, .box-group {
+    display: flex;
+}
 
 .container2 {
     flex-direction: column;
@@ -75,10 +78,15 @@ img {
 }
 
 
+.box-group {
+    flex-direction: column;
+    align-items: center;
+    max-width: 140px;
+}
+
 .rounded-box {
     border-radius: 25px;
-    border: 2px solid #3882F6;
+    border: 3px solid #3882F6;
     width: 125px;
     height: 125px;
 }
-
