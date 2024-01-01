@@ -1,8 +1,12 @@
 /* Top part
 ------------------------------- */
+.header {
+    padding-bottom: 60px;
+}
 
 .content1, .header, ul {
     display: flex;
+    gap: 60px;
 }
 
 .secondary-text {
@@ -75,8 +79,12 @@ img {
 .container2 {
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 
+#boxes {
+    gap: 50px;
+}
 
 .box-group {
     flex-direction: column;
@@ -85,7 +93,7 @@ img {
 }
 
 .rounded-box {
-    border-radius: 25px;
+    border-radius: 12px;
     border: 3px solid #3882F6;
     width: 125px;
     height: 125px;
