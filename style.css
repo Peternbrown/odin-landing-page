@@ -1,5 +1,8 @@
 /* Top part
 ------------------------------- */
+.container1 {
+    height: 450px
+}
 .header {
     padding-bottom: 60px;
 }
@@ -54,16 +57,14 @@ button {
     background-color: #3882F6;
 }
 
-
 .content1 {
     justify-content: space-around;
     padding-left: 25%;
     padding-right: 25%;
 }
 
-.box1 {
-    height: 200px;
-    width: 300px;
+.secondary-text{
+    padding-top: 0px;
 }
 
 img {
@@ -82,6 +83,12 @@ img {
     gap: 20px;
 }
 
+.middle-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
 #boxes {
     gap: 50px;
 }
@@ -97,4 +104,79 @@ img {
     border: 3px solid #3882F6;
     width: 125px;
     height: 125px;
+}
+/* Quote container (3)
+------------------------------- */
+.container3 {
+    background-color: #e5e7eb;
+    padding: 30px 75px 30px 75px;
+    color: white;
+}
+
+.quote {
+    font-style: italic;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: end;
+    font-size: 32px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+/* Call to action container
+------------------------------- */
+.blue-box {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    border-radius: 15px;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#action-header {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.action-text {
+    color: white;
+    margin-top: 0px;
+}
+
+#action-p {
+    font-size: 22px;
+}
+
+#action-sign {
+    font-size: 32px;
+    background-color: #3882f6;
+    color: white;
+    border: 3px solid #F9FAF8;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+/* Footer
+------------------------------- */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: #1F2937;
+    color: white;
+    font-size: 26px;
+}
+
+#copyright {
+    text-align: center;
 }
